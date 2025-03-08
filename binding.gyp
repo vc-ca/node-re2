@@ -111,7 +111,7 @@
         "vendor/abseil-cpp/absl/time/time.cc",
       ],
       "cflags": [
-        "-std=c++2a",
+        "-std=c++17",
         "-Wall",
         "-Wextra",
         "-Wno-sign-compare",
@@ -132,10 +132,10 @@
       ],
       "xcode_settings": {
         "MACOSX_DEPLOYMENT_TARGET": "10.15",
-        "CLANG_CXX_LANGUAGE_STANDARD": "c++2a",
+        "CLANG_CXX_LANGUAGE_STANDARD": "c++17",
         "CLANG_CXX_LIBRARY": "libc++",
         "OTHER_CFLAGS": [
-          "-std=c++2a",
+          "-std=c++17",
           "-Wall",
           "-Wextra",
           "-Wno-sign-compare",
